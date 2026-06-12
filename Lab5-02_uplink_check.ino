@@ -17,13 +17,13 @@ void setup() {
 void loop() {
   if (com.available()) {
     char cmd = com.get_char();
-    com.printf("command = %c\n", cmd);
-    cdh.printf("command = %c\n", cmd);
+    com.printf("command = %c\r\n", cmd);
+    cdh.printf("command = %c\r\n", cmd);
   } else {
     count++;
 
-    com.printf("%lu\n", (unsigned long)count);
-    cdh.printf("count = %lu\n", (unsigned long)count);
+    com.printf("count from COM = %lu\r\n", (unsigned long)count);
+    cdh.printf("count from CDH = %lu\r\n", (unsigned long)count);
   }
 
   delay(1000);
