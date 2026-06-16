@@ -7,9 +7,8 @@ uint32_t count = 0;
 
 void setup() {
   cdh.begin();
-  cdh.wait_for_serial();
 
-  com.begin(9600);
+  com.begin();
 
   cdh.println("XBee uplink check started (1 second interval)");
 }
