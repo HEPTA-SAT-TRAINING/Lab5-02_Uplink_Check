@@ -12,4 +12,4 @@ Type a character in the input bar and press **Enter** to send an uplink command.
 
 ## Firmware
 
-Open `Lab5-02_uplink_check.ino` in the Arduino IDE and upload to your board. For library and submodule setup, see [src/README.md](src/README.md).
+Open `Lab5-02_Uplink_Check.ino` in the Arduino IDE and upload to your board. For library and submodule setup, see [src/README.md](src/README.md).
