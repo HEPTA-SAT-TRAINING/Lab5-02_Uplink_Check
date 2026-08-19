@@ -6,7 +6,7 @@ Firmware that echoes uplink commands and downlinks a 1-second count over XBee CO
 
 Open in **Chrome or Edge**, then **Add Port** → **Connect** (38400 baud):
 
-**https://hepta-sat-training.github.io/hepta-serial-viewer/**
+**https://hepta-sat-training.github.io/HEPTA-SAT-Serial_Monitor/**
 
 Type a character in the input bar and press **Enter** to send an uplink command. The satellite echoes `command = ...` in the output pane.
 
